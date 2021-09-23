@@ -1,9 +1,81 @@
 <html>
 	<head>
 		<title>Myfirst Web application</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
 	</head>
 
 	<body>
-		<h1>This is my first web application</h1>
+		<div id="container">
+			<img src="10000coders-logo.png" alt="10000 coders logo"/ id="logo">
+			<h1 id="main_heading">Welcome to 10000 Coders Programming Challenge</h1>
+			<p>Hello guys,</p>
+			<p>Welcome to the HTML/CSS programming exercise by 1000 coders. This will test your basics in HTML and css. You need to recreate the document you are reading now using HTML/CSS. <span id="span_content">Make sure that the page looks exactly like this document</span>.</p>
+			<h2 id="side_heading_1">General Instructions</h2>
+			<ol>
+				<li>There will be a 15px margin between all elements in he form shown below</li>
+				<li>Use external CSS for styling</li>
+				<li>
+					This exercise will cover the following constucts of HTML
+					<ul>
+						<li>HTML Form</li>
+						<li>Text inputs with placeholders</li>
+						<li>Text area</li>
+						<li>Password input</li>
+						<li>Select drop-down box</li>
+						<li>Radio buttons</li>
+						<li>Checkboxes and</li>
+						<li>Buttons</li>
+					</ul>
+				</li>
+			</ol>
+			<h3 id="side_heading_2">So, lelt's get started. All the best!</h3>
+			<br>
+			<form action="index.html" method = "get">
+				<label id="name_label">Full Name</label>
+				<input type="text" name= "full_name" placeholder="Enter your first name" class="input_box">
+				
+				<br>
+				
+				<label id="password_label">Secret Pin</label>
+				<input type="password" name= "secret_pin" placeholder="Enter your secret pin" class="input_box">
+				
+				<br>
+				<br>
+				
+				<label id="gender_label">Gender</label>
+				<input type="radio" name= "gender" class="radio_buttons" >
+				<label id="male_label">Male</label>
+				<input type="radio" name= "gender" class="radio_buttons" >
+				<label id="female_label">Female</label>
+				
+				<br>
+				<br>
+				
+				<label id="check_label">I am an expert in </label>
+				<input type="checkbox" name="html" class="check_box">
+				<label class="check_label">HTML</label>
+				<input type="checkbox" name="css" class="check_box">
+				<label class="check_label">CSS</label>
+				
+				<br>
+				<br>
+				
+				<label id="select_label">My field of study is </label>
+				<select name="select_branch" id="input_box">
+					<option>Select your branch using this select drop-down</option>
+				</select>
+				
+				<br>
+				<br>
+				
+				<label id="textarea_label" >Tell more about yourself</label>
+				<textarea name="about" placeholder="This is text area. Enter your description." id="text_area" ></textarea>
+				
+				<br>
+				<br>
+				
+				<input type="submit" name="submit" value="Submit Form" id="submit_button">
+			</form>
+		</div>
 	</body>
 </html>

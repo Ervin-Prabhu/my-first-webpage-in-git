@@ -1,0 +1,110 @@
+body{
+	font-size:15px;
+}
+#container{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	height : auto;
+	width :43%;
+}
+#logo{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#main_heading{
+	font-size :20px;
+	text-align:center;
+	color:#9ca7ce;
+	
+}
+#span_content{
+	text-decoration:underline;
+}
+#side_heading_1{
+	font-size :17px;
+	color:#9ca7ce;
+}
+li{
+	padding-left: 5px;
+}
+ul{
+	list-style:disc;
+}
+#side_heading_2{
+	text-align:center;
+	font-size:15px;
+}
+.input_box{
+	width:60%;
+	box-sizing: border-box;
+	margin: 8px 0;	
+	padding: 5px 10PX;
+}
+#name_label{
+	padding-right:20px;
+}
+#password_label{
+	padding-right:22px;
+}
+#gender_label{
+	margin: 18px 0;
+	padding-right:35px;
+}
+#radio_buttons{
+	margin: 18px 0;
+	padding:30px;
+}
+.check_label{
+	padding-left:5px;
+	padding-right:10px;
+}
+#check_label{
+	padding-right:10px;
+}
+.check_box{
+	position:relative;
+	width:15px;
+	height:15px;
+	padding: 10px;	
+}
+input[type="checkbox"]{
+	border-radius:none;
+	border-color:green;
+	
+}
+#select_label{
+	padding-right:0.5em;
+}
+select{
+	border-top:1px solid green;
+	border-bottom:1px solid green;
+}
+#input_box{
+	padding:0.5em;
+}
+#textarea_label{
+	vertical-align:top;
+	padding-right:0.5em;
+}
+#text_area{
+	position:relative;
+	padding: 2em 1em;
+	width:30em;
+	height:6em;
+	overflow:hidden;
+	border-top:10px solid green:	
+}
+textarea{
+	resize:none;
+	border-top:1px solid green;
+	border-bottom:1px solid green;
+}
+#submit_button{
+	padding:15px 30px;
+	background-color:#5562e8;
+	border-radius:10px;
+	color:white;
+	border:none;
+}
