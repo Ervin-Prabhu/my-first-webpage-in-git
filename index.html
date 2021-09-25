@@ -30,9 +30,11 @@
 			</ol>
 			<h3 id="side_heading_2">So, lelt's get started. All the best!</h3>
 			<br>
-			<form action="index.html" method = "get">
+			<form>
+			
+			
 				<label id="name_label">Full Name</label>
-				<input type="text" name= "full_name" placeholder="Enter your first name" class="input_box">
+				<input type="text" name= "full_name" placeholder="Enter your first name" class="input_box" id="full_name">
 				
 				<br>
 				
@@ -43,9 +45,9 @@
 				<br>
 				
 				<label id="gender_label">Gender</label>
-				<input type="radio" name= "gender" class="radio_buttons" >
+				<input type="radio" name= "gender" class="radio_buttons" id="male_radio">
 				<label id="male_label">Male</label>
-				<input type="radio" name= "gender" class="radio_buttons" >
+				<input type="radio" name= "gender" class="radio_buttons" id="female_radio" >
 				<label id="female_label">Female</label>
 				
 				<br>
@@ -77,5 +79,6 @@
 				<input type="submit" name="submit" value="Submit Form" id="submit_button">
 			</form>
 		</div>
+		<script src="script.js"></script>
 	</body>
 </html>
